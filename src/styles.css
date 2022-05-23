@@ -1,0 +1,83 @@
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .card{
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    padding: 30px;
+    color: #555;
+}
+h2{
+    font-family: 'Gill Sans';
+}
+#A{
+    background-color: rgb(226, 149, 7);
+    color: #fff;
+    font-size:large;
+}
+#a{
+    border-radius: 25px;
+    border-color: whitesmoke;
+    color: rgba(226, 149, 7);
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+}
+#B{
+    background-color:rgb(3, 77, 77);
+    color: #fff;
+    font-size: large;
+}
+#b{
+    border-radius: 25px;
+    border-color: #fff;
+    color: rgb(3, 77, 77);
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+
+}
+#C{
+    background-color:rgb(2, 53, 53);
+    color: #fff;
+    font-size: large;
+}
+#c{
+    border-radius: 25px;
+    border-color: #fff;
+    color: rgb(2, 53, 53);
+    height: 40px;
+    width: 120px;
+    margin-top: 20px; 
+    }
+@media only screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+       
+}
+#a:hover{
+    background-color: rgba(226, 149, 7);
+    color: #fff;
+}
+#b:hover{
+    background-color: rgb(3, 77, 77);
+    color: #fff;
+}
+#c:hover{
+    background-color: rgb(2, 53, 53);
+    color: #fff;
+}
